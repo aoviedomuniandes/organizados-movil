@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "organizados-movil",
+    "slug": "organizados-movil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/main-logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/main-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/main-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jcaceresf.organizadosmovil"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "627ed39a-f197-40bc-8cb2-34ee6a84068c"
+      }
+    },
+    "owner": "jcaceresf"
+  }
+}
